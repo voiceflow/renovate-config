@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "A base Renovate preset for the infrastructure team",
+  "extends": ["github>voiceflow/renovate-config"],
+  "reviewers": ["xavidop"]
+}
