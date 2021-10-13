@@ -10,7 +10,6 @@
     ":labels(dependencies, ready for review)",
     "schedule:weekdays"
   ],
-  "commitMessageSuffix": "(VF-000)",
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
   "rebaseWhen": "auto",
   "packageRules": [
