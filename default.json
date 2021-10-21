@@ -12,7 +12,6 @@
     ":rebaseStalePrs"
   ],
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
-  "rebaseWhen": "auto",
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
