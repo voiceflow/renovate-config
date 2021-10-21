@@ -8,7 +8,8 @@
     ":semanticCommits",
     ":semanticPrefixFixDepsChoreOthers",
     ":labels(dependencies, ready for review)",
-    "schedule:weekdays"
+    "schedule:weekdays",
+    ":rebaseStalePrs"
   ],
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
   "rebaseWhen": "auto",
