@@ -13,6 +13,16 @@
       ],
       "versioning": "node",
       "enabled": true
+    },
+    {
+      "matchManagers": [
+        "dockerfile", "docker-compose"
+      ],
+      "matchPackageNames": [
+        "node"
+      ],
+      "versioning": "node",
+      "enabled": true
     }
   ]
 }
