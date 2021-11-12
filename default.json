@@ -11,6 +11,7 @@
     "schedule:weekdays",
     ":rebaseStalePrs"
   ],
+  "commitMessageSuffix": "(VF-000)",
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
   "draftPR": true,
   "packageRules": [
