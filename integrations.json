@@ -1,28 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "A base Renovate preset for the integrations team",
-  "extends": ["github>voiceflow/renovate-config"],
-  "reviewers": ["jonahsnider"],
-  "packageRules": [
-    {
-      "matchManagers": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "@types/node"
-      ],
-      "versioning": "node",
-      "enabled": true
-    },
-    {
-      "matchManagers": [
-        "dockerfile", "docker-compose"
-      ],
-      "matchPackageNames": [
-        "node"
-      ],
-      "versioning": "node",
-      "enabled": true
-    }
-  ]
+  "extends": ["github>voiceflow/renovate-config:platform"]
 }

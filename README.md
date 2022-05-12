@@ -26,12 +26,12 @@ There are also per-team presets which are preferred to the generic one when poss
 }
 ```
 
-#### Integrations
+#### Platform
 
 ```json
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>voiceflow/renovate-config:integrations"]
+  "extends": ["github>voiceflow/renovate-config:platform"]
 }
 ```
 
