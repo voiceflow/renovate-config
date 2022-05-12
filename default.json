@@ -14,6 +14,9 @@
   "commitMessageSuffix": "(VF-000)",
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
   "draftPR": true,
+  "automerge": false,
+  "automergeType": "pr-comment",
+  "automergeComment": "bors r+",
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
@@ -22,6 +25,14 @@
     {
       "groupName": "Voiceflow dependencies",
       "matchPackagePrefixes": ["@voiceflow/"],
+      "enabled": true
+    },
+    {
+      "groupName": "Voiceflow dependencies (automerge)",
+      "matchPackagePrefixes": ["@voiceflow/"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
       "enabled": true
     }
   ]
