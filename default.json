@@ -24,11 +24,13 @@
     },
     {
       "groupName": "Voiceflow dependencies",
+      "groupSlug": "vf-deps",
       "matchPackagePrefixes": ["@voiceflow/"],
       "enabled": true
     },
     {
       "groupName": "Voiceflow dependencies (automerge)",
+      "groupSlug": "vf-deps-automerge",
       "matchPackagePrefixes": ["@voiceflow/"],
       "matchUpdateTypes": ["minor", "patch", "pin"],
       "matchCurrentVersion": "!/^0/",
