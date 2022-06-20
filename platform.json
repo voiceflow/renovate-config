@@ -12,7 +12,8 @@
         "@types/node"
       ],
       "versioning": "node",
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     },
     {
       "matchManagers": [
