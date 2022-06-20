@@ -6,17 +6,6 @@
   "packageRules": [
     {
       "matchManagers": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "@types/node"
-      ],
-      "versioning": "node",
-      "enabled": true,
-      "automerge": true
-    },
-    {
-      "matchManagers": [
         "dockerfile", "docker-compose"
       ],
       "matchPackageNames": [
