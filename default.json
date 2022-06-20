@@ -16,6 +16,9 @@
   "automerge": false,
   "automergeType": "pr-comment",
   "automergeComment": "bors r+",
+  "vulnerabilityAlerts": {
+      "enabled": true
+  },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
