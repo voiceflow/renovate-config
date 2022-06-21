@@ -25,6 +25,18 @@
       "enabled": false
     },
     {
+      "matchManagers": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "@types/node"
+      ],
+      "matchUpdateTypes": ["minor", "patch", "pin"],
+      "versioning": "node",
+      "enabled": true,
+      "automerge": true
+    },
+    {
       "groupName": "Voiceflow dependencies",
       "groupSlug": "vf-deps",
       "matchPackagePrefixes": ["@voiceflow/"],
