@@ -15,7 +15,7 @@
   "branchName": "{{{branchPrefix}}}{{{additionalBranchPrefix}}}{{{branchTopic}}}/VF-000",
   "automerge": false,
   "automergeType": "pr-comment",
-  "automergeComment": "bors r+",
+  "automergeComment": "service-account merge",
   "vulnerabilityAlerts": {
       "enabled": true
   },
