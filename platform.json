@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "A base Renovate preset for the platform team",
   "extends": ["github>voiceflow/renovate-config"],
-  "reviewers": ["jonahsnider", "trs"],
+  "reviewers": ["trs"],
   "packageRules": [
     {
       "matchManagers": [
